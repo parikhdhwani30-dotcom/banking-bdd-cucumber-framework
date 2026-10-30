@@ -58,3 +58,4 @@ mvn test -Dcucumber.filter.tags="@smoke"
 ## 5. Test Reports
 After running tests, open the generated HTML report:
 - `target/cucumber-reports/cucumber.html`
+

@@ -54,3 +54,4 @@ public class TransferFundsPage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(confirmationBody)).getText();
     }
 }
+

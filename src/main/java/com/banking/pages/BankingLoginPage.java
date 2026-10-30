@@ -47,3 +47,4 @@ public class BankingLoginPage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage)).getText();
     }
 }
+

@@ -31,3 +31,4 @@ Feature: Banking Account Management & Fund Transfer
     And I transfer "$250.00" from account "12345" to account "54321"
     Then I should receive a transfer confirmation message "Transfer Complete!"
     And the transaction details should state "$250.00 has been transferred"
+
